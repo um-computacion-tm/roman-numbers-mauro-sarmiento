@@ -143,6 +143,7 @@ def romanToDecimal(roman):
                 decimal += 1
                 i += 1
         else: 
+            #? En caso de no haber nada para sumar a decimal, se retorna automáticamente 
             return 0
         
     return decimal
